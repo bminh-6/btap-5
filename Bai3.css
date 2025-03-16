@@ -1,0 +1,31 @@
+.container{
+    width: 350px;
+    height: 250px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px 5px ;
+}
+.header{
+    background-color: rgb(13, 59, 13);
+    width: 350px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px 5px 0 0 ;
+}
+    .content a:link{
+        color: blue;
+        text-decoration-line: none;
+    }
+    .content a:visited{
+        color: rgb(0, 0, 0);
+    }
+    .content a:hover {
+        color: rgb(221, 0, 255);
+        text-decoration: underline;
+    }
+    .content a:active {
+        color: red;
+        background-color: aquamarine;}
